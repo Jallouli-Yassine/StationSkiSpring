@@ -26,7 +26,4 @@ public class Abonnement implements Serializable {
 
     private TypeAbonnement typeAbon;
 
-
-
-
 }
