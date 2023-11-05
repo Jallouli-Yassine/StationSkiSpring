@@ -1,10 +1,14 @@
 package tn.esprit.tp2stationskiyassinejallouli4twin7.services.IMPL;
 
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import tn.esprit.tp2stationskiyassinejallouli4twin7.entities.Inscription;
 import tn.esprit.tp2stationskiyassinejallouli4twin7.services.IInscriptionService;
 
 import java.util.List;
 
+@AllArgsConstructor
+@Service
 public class InscriptionServiceImpl implements IInscriptionService {
     @Override
     public List<Inscription> retrieveAllINSCs() {

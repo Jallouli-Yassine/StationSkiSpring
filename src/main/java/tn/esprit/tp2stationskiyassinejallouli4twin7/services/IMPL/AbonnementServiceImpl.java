@@ -1,5 +1,7 @@
 package tn.esprit.tp2stationskiyassinejallouli4twin7.services.IMPL;
 
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import tn.esprit.tp2stationskiyassinejallouli4twin7.entities.Abonnement;
 import tn.esprit.tp2stationskiyassinejallouli4twin7.entities.TypeAbonnement;
 import tn.esprit.tp2stationskiyassinejallouli4twin7.services.IAbonnementService;
@@ -8,6 +10,8 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
 
+@AllArgsConstructor
+@Service
 public class AbonnementServiceImpl implements IAbonnementService {
     @Override
     public List<Abonnement> retrieveAllABs() {
